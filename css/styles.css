@@ -65,9 +65,10 @@ body {
 }
 .logo {
     color: var(--logo-second-color);
-    margin-right: 93px;
-}
+    }
 .accent-logo {  
+    margin-right: 93px;
+
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
@@ -116,9 +117,10 @@ body {
 
 .hero {
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
     background-color: var(--background);
-    height: 600px;
 }
 .hero-title {
     width: 696px;
@@ -126,7 +128,6 @@ body {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 30px;
-    padding-top: 200px;
 
     font-weight: 900;
     font-size: 44px;
@@ -138,15 +139,16 @@ body {
     color: var(--primary-text-color-theme-dark);
 }
 .modal-button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+
     font-family: var(--primary-font-family);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    border: none;
-    border-radius: 4px;
-    
-    align-items: center;
-    text-align: center;
+        
     letter-spacing: 0.06em;
     background-color: var(--accent-color);
     
@@ -241,10 +243,7 @@ body {
 /*----------footer----------*/
 
 .footer {
-    height: 252px;
     background-color: var(--background);
-}
-.footer-div {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -253,6 +252,8 @@ body {
 }
 .adress {
     margin-top: 20px;
+    width: 231px;
+    height: 81px;
 }
 .adress-link {
     font-style: normal;
